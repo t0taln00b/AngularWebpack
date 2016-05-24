@@ -9,7 +9,7 @@ export default function routes($stateProvider, $urlRouterProvider){
 	$stateProvider.state('main.item', {
 		url: '/:id/item',
 		template: template,
-		controllerAs: 'vm',
+		controllerAs: 'ctrl',
 		controller: controller
 	})
 

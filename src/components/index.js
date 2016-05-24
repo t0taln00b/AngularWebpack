@@ -1,9 +1,9 @@
 // Application services
-import Modal from './modal';
+import EditableField from './editableField';
 
 export default angular.module('app.components.module',
 	[
-		Modal
+		EditableField
 	])
 
 	.name;

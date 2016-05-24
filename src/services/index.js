@@ -1,12 +1,15 @@
 // Application modules
-/* import ApiModule from './api';
- * import AuthModule from './auth'; */
+import Modal from './modalDialog.module';
+
+/* import ApiModule from './api.module';
+ * import AuthModule from './auth.module'; */
 
 // Application services
-import CookiesService from './app/cookies.service';
+import CookiesService from './cookies.service';
 
 export default angular.module('app.services.module',
 	[
+		Modal
 		/* ApiModule,
 		 * AuthModule */
 	])

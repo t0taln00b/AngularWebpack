@@ -1,5 +1,25 @@
 .item
 	h2 Item
-	a.btn.btn-default(ng-click='vm.submit()')
-		.glyphicon.glyphicon-user
-		| &nbsp Open Modal Dialog
+
+	div
+		h4 Edit Controller Data
+		div
+			label Message:
+			editable-field(field-value='ctrl.data.message', on-update="ctrl.updateData(value)")
+
+	div
+		h4 Show Controller Data
+		a.btn.btn-default(ng-click='ctrl.showData()')
+			.glyphicon.glyphicon-user
+			| &nbsp Open Modal Dialog
+
+	div
+		h4 Animation test
+
+		select(ng-model='ctrl.selection', ng-options='item for item in ctrl.items')
+
+		div selection={{ctrl.selection}}
+		.animate-switch-container(ng-switch='', on='ctrl.selection')
+			.animate-switch(ng-switch-when='settings') Settings
+			.animate-switch(ng-switch-when='home') Home
+			.animate-switch(ng-switch-default='') default

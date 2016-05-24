@@ -11,7 +11,7 @@ export default function routes($stateProvider, $urlRouterProvider){
 	$stateProvider.state('main', {
 		url: '/main',
 		template: template,
-		controllerAs: 'vm',
+		controllerAs: 'ctrl',
 		controller: controller
 		/*
 		abstract: true

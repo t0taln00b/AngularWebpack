@@ -1,2 +1,5 @@
 # AngularWebpack
-Angular + Webpack Starter
+Angular + Webpack Starter.
+
+# License
+[MIT](/LICENSE)
