@@ -1,0 +1,11 @@
+node_modules/
+.backup/
+.idea/
+.idea/*.*
+.coverage/
+.coverage/*.*
+.dist/
+.dist/*.*
+temp/
+*.zip
+*.7z

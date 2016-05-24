@@ -1,2 +1,2 @@
 # AngularWebpack
-Angular Webpack Starter
+Angular + Webpack Starter
